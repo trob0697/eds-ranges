@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/eds-ranges/static/css/main.70abcafb.chunk.css",
+    "main.js": "/eds-ranges/static/js/main.37ed0bb1.chunk.js",
+    "main.js.map": "/eds-ranges/static/js/main.37ed0bb1.chunk.js.map",
+    "runtime-main.js": "/eds-ranges/static/js/runtime-main.0fa36f68.js",
+    "runtime-main.js.map": "/eds-ranges/static/js/runtime-main.0fa36f68.js.map",
+    "static/css/2.a0f05cfc.chunk.css": "/eds-ranges/static/css/2.a0f05cfc.chunk.css",
+    "static/js/2.f267edc6.chunk.js": "/eds-ranges/static/js/2.f267edc6.chunk.js",
+    "static/js/2.f267edc6.chunk.js.map": "/eds-ranges/static/js/2.f267edc6.chunk.js.map",
+    "index.html": "/eds-ranges/index.html",
+    "static/css/2.a0f05cfc.chunk.css.map": "/eds-ranges/static/css/2.a0f05cfc.chunk.css.map",
+    "static/css/main.70abcafb.chunk.css.map": "/eds-ranges/static/css/main.70abcafb.chunk.css.map",
+    "static/js/2.f267edc6.chunk.js.LICENSE.txt": "/eds-ranges/static/js/2.f267edc6.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/eds-ranges/static/media/bootstrap-icons.dfd0ea12.woff2",
+    "static/media/dice.ffd26517.png": "/eds-ranges/static/media/dice.ffd26517.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fa36f68.js",
+    "static/css/2.a0f05cfc.chunk.css",
+    "static/js/2.f267edc6.chunk.js",
+    "static/css/main.70abcafb.chunk.css",
+    "static/js/main.37ed0bb1.chunk.js"
+  ]
+}
