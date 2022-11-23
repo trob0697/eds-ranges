@@ -8,8 +8,10 @@ function RangeChart(props){
     useEffect(() => {
         if(props.selections[2]){
             const range = chartData[props.selections[0]][props.selections[1]][props.selections[2]];
-            if(range === undefined) setRange(Array.from(Array(13), () => Array(13).fill([0, 0, 0])));
-            else setRange(range)
+            if(typeof range === "undefined")
+                setRange(Array.from(Array(13), () => Array(13).fill([0, 0, 0])));
+            else
+                setRange(range)
         }
         else{
             setRange(Array.from(Array(13), () => Array(13).fill([0, 0, 0])));
@@ -44,7 +46,6 @@ function RangeChart(props){
         else{
             let stringBuilder = "linear-gradient(to right";
             let total = 0;
-            
             if(range[i][j][0] !== 0){
                 total += range[i][j][0];
                 stringBuilder += ", #EB967E " + (total - range[i][j][0]).toString() + "%, #EB967E " + total.toString() + "%";
@@ -57,14 +58,12 @@ function RangeChart(props){
                 total += range[i][j][2];
                 stringBuilder += ", #6CA3C1 " + (total - range[i][j][2]).toString() + "%, #6CA3C1 " + total.toString() + "%";
             }
-        
             if(i === j)
                 stringBuilder += ", #F8F9FA " + (total).toString() + "%)";
             else if(i < j)
                 stringBuilder += ", #AAAAAA " + (total).toString() + "%, #AAAAAA)";
             else
                 stringBuilder += ", #3D3D3D " + (total).toString() + "%, #3D3D3D)";
-        
             return stringBuilder;
         }
     }
